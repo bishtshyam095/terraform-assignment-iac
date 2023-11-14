@@ -43,3 +43,6 @@ Some do's you should follow when working with Terrafrom templates/files.
     - Then we have replace s the name tage with `var.instace_name`.
 
         - terraform apply to apply the changes in the configuration
+
+# Output
+    - Displays the decalred output during the execution of the terraform template.
