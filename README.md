@@ -30,4 +30,10 @@ Some do's you should follow when working with Terrafrom templates/files.
 3. terraform state list
 
 # Updating the infrastrucuture
-    - we changed/updated the ami in the current configuration file and updated it and the used terraform apply
+    - we changed/updated the ami in the current configuration file and updated it and the used terraform apply.
+
+    - Updated the tags section and changed/updated the name of the ec2 instance
+
+# Destroying/Deleting the configuration
+    1. terraform destroy
+        - terminates resources managed by your Terraform project
