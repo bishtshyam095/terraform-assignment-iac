@@ -21,11 +21,10 @@ Some do's you should follow when working with Terrafrom templates/files.
 
 # Creating the infrastructure
 
-1. terraform apply
-    - To apply the configuration
+    1. terraform apply
+        - To apply the configuration
 
-2. terrafor show
-    - 
+    2. terrafor show
 
 3. terraform state list
 
@@ -37,3 +36,10 @@ Some do's you should follow when working with Terrafrom templates/files.
 # Destroying/Deleting the configuration
     1. terraform destroy
         - terminates resources managed by your Terraform project
+
+# Varibles
+    - use of variables in terraform.
+    - We have created a file name `variables.tf`.
+    - Then we have replace s the name tage with `var.instace_name`.
+
+        - terraform apply to apply the changes in the configuration
