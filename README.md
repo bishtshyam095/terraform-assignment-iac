@@ -10,14 +10,14 @@ Includes Terraform assignments
 # Build Infrastrucure
 Some do's you should follow when working with Terrafrom templates/files.
 
-1. terraform init
-    - To initilize the directory
+    1. terraform init
+        - To initilize the directory
 
-2. terraform fmt
-    - To formats the documents. In out case `main.tf`.
+    2. terraform fmt
+        - To formats the documents. In out case `main.tf`.
 
-3. terraform validate
-    - To check the configuration is syntactically valid and internally consistent
+    3. terraform validate
+        - To check the configuration is syntactically valid and internally consistent
 
 # Creating the infrastructure
 
