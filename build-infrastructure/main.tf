@@ -1,4 +1,11 @@
 terraform {
+    cloud {
+    organization = "pilot-terraform"
+    workspaces {
+      name = "learn-tfc-aws"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"

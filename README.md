@@ -46,3 +46,27 @@ Some do's you should follow when working with Terrafrom templates/files.
 
 # Output
     - Displays the decalred output during the execution of the terraform template.
+
+
+# Store remote state
+    - Migrating the state to the Terraform cloud.
+
+    # Terraform login
+        - use command `terraform login` to login into the Terraform cloud.
+
+    - Use the below command in `main.tf` to setup Terraform cloud. It will take you to the web browser, generate a token and paste it into the terminal.
+
+    - Then re-initialize the configuration using `terraform init`
+
+        cloud {
+    organization = "organization-name"
+    workspaces {
+      name = "learn-tfc-aws"
+    }
+  }
+
+    - Note: Create a organization in Terraform 
+
+    - use the organization name int he above command you have just crated.
+
+    - then `terraform apply`
