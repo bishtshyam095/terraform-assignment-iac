@@ -59,11 +59,11 @@ Some do's you should follow when working with Terrafrom templates/files.
     - Then re-initialize the configuration using `terraform init`
 
         cloud {
-    organization = "organization-name"
-    workspaces {
-      name = "learn-tfc-aws"
-    }
-  }
+            organization = "organization-name"
+            workspaces {
+                name = "learn-tfc-aws"
+            }
+        }
 
     - Note: Create a organization in Terraform 
 
