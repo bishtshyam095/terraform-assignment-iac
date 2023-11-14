@@ -2,10 +2,10 @@
 Includes Terraform assignments
 
 # main-initial - Commands
-- terraform init
-- terraform apply
-- docker ps
-- terraform destroy
+    - terraform init
+    - terraform apply
+    - docker ps
+    - terraform destroy
 
 # Build Infrastrucure
 Some do's you should follow when working with Terrafrom templates/files.
